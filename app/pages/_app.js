@@ -12,10 +12,12 @@ const GlobalStyle = createGlobalStyle`
     }`;
 
 function MyApp() {
+    //<Component {...pageProps}/>
+    //{Component, pageProps}
     return (
         <>
             <GlobalStyle/>
-                <Header/>
+            <Header/>
         </>
     );
 }
